@@ -66,8 +66,12 @@
           <suiteXmlFiles>
             <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
+          <systemPropertyVariables>
+          <browser>${Browser}</browser>
+          </systemPropertyVariables>
         </configuration>
       </plugin>
+      
        <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
